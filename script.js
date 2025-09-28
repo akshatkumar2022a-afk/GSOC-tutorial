@@ -7,7 +7,7 @@ navToggleBtn.addEventListener("click", function () {
   header.classList.toggle("nav-active");
   this.classList.toggle("active");
 });
-
+// fixed
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 for (let i = 0; i < navbarLinks.length; i++) {
   navbarLinks[i].addEventListener("click", function () {
